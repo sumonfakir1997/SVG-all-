@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG file </title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>rectangle</h1>
+    <svg width="500" height="350" style="border: 2px solid red;" >
+       <rect  width="450" height="280" fill="blue" stroke-width="15" stroke="red" opacity=".5" x="30" y="30" rx="220">
+    </svg>
+    <!-- cercle -->
+    
+    <div class="circle">
+        <h1>circle</h1>
+        <svg width="500" height="400">
+            <circle cx="400" cy="300" r="90" fill="green" stroke="red" stroke-width="10" stroke-dasharray="10 30" stroke-linecap="square"
+            />
+        </svg>
+    </div>
+    <!-- stroke-linecap = square/round/bult ay 3tar ja kono ekta hote pare  -->
+    <div class="ellips">
+        <h2>ellips</h2>
+        <svg width="500" height="400" >
+            <ellipse cy="200" cx="250" rx="200"  ry="50" fill="yellwo"
+            stroke-width="10" stroke="blue"
+            />
+        </svg>
+    </div>
+
+    <div class="line-drow">
+        <h1>line-drow</h1>
+        <svg width="400" height="400" >
+            <line x1="50" x2="300" y1="0" y2="300" stroke-width="20" stroke="black"
+            />                        
+        </svg>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
